@@ -85,3 +85,10 @@ header nav a {
 }
 
 /* 헤더 영역 E */
+
+/* 메인 배너 영역 S */
+.main-banner img {
+    width: 100%;
+}
+
+/* 메인 배너 영역 E */
