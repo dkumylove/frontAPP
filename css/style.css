@@ -92,3 +92,17 @@ header nav a {
 }
 
 /* 메인 배너 영역 E */
+
+/* 서브 메뉴 영역 S */
+.sub-menus {
+    display: flex;
+    flex-wrap: wrap; /*줄개행*/
+}
+
+.sub-menus a {
+    width: calc(100% / 3); /*띄어쓰기해야 연산 가능*/
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+/* 서브 메뉴 영역 E */
