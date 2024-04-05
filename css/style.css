@@ -302,18 +302,19 @@ footer .links {
 
 footer .links a {
     font-size: 0.846rem; 
-    padding: 0 11px;
+    padding: 0 11px; /*좌우여백*/
     color: #878787;
-    position: relative;
+    position: relative; /*현재 요소에 위치함(상위)*/
 }
 
-footer .links a:not(.last)::after {
-    content: '';
+/*가상 선택자 footer .links a::after */
+footer .links a:not(.last)::after { /*not(.last) 마지막꺼만 뺴고*/
+    content: ''; /* ' ' 공백 추가 없을시 가상선택자 추가 안됨*/
     display: block;
     width: 1px;
     height: 8px;
     background: #878787;
-    position: absolute;
+    position: absolute; /*문서 왼쪽 위치(하위: 상위요소의 상대배치속성)*/
     right: 0;
     top: 4px;
 }
