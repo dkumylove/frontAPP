@@ -159,3 +159,28 @@ header nav a {
     display: block;
 }
 /* 서브 배너 영역 E */
+
+/* 상품 목록 영역 S */
+.products ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px; /*전체에서 좌무만 마진있음*/
+}
+
+.products li {
+    width: calc(100% / 2 - 8px); /*가각 8이 빠져서 아래에서 왼쪽마진 16을 뺼 수 있음*/
+}
+
+
+.products li:nth-of-type(2n) {
+    margin-left: 16px; /*짝수번 왼쪽 마진 넣음*/
+}
+
+.products .product-image img { /*화면에 이미지 체우기*/
+    width: 100%; 
+    display: block;
+}
+
+
+
+/* 상품 목록 영역 E */
