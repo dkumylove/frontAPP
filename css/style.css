@@ -204,5 +204,18 @@ header nav a {
     word-break: break-all; /*영문이다 숫자를 한 글자만 연속으로 사용하면 줄개행 안됨. word-break: break-all; 추가해서 줄개행시킴*/
 }
 
+.products .stars img { /*별크기*/
+    height: 11px;
+}
+
+.products .no-of-review { /*리뷰글씨*/
+    color: #a7a7a7;
+    margin-left: 6px;
+    font-size: 0.923rem;  /*12px*/
+}
+
+.products .review-rate {  /*리뷰 전체의 상하단 여백*/
+    margin: 10px 0 2px;
+}
 
 /* 상품 목록 영역 E */
