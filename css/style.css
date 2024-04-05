@@ -319,3 +319,19 @@ footer .links a:not(.last)::after { /*not(.last) 마지막꺼만 뺴고*/
     top: 4px;
 }
 /* 푸터 영역 E */
+
+/* 하단 고정 메뉴 S */
+
+.bottom-quick-links {
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    z-index: 10;
+}
+
+.bottom-quick-links img {
+    display: block;
+    width: 50px;
+    margin-top: 10px;
+}
+/* 하단 고정 메뉴 E */
