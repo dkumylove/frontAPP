@@ -169,6 +169,7 @@ header nav a {
 
 .products li {
     width: calc(100% / 2 - 8px); /*가각 8이 빠져서 아래에서 왼쪽마진 16을 뺼 수 있음*/
+    margin-bottom: 30px;
 }
 
 
@@ -179,6 +180,7 @@ header nav a {
 .products .product-image img { /*화면에 이미지 체우기*/
     width: 100%; 
     display: block;
+    border-radius: 10px; /*이미지 모서리 둥글게*/
 }
 
 
