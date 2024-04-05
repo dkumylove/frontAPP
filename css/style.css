@@ -89,6 +89,8 @@ header nav a {
 /* 메인 배너 영역 S */
 .main-banner img {
     width: 100%;
+    display: block; /* 하단쪽 여백 x */
+    /*img -> 하단쪽 외부엽백생김, img는 inline이기 때문*/
 }
 
 /* 메인 배너 영역 E */
@@ -97,6 +99,10 @@ header nav a {
 .sub-menus {
     display: flex;
     flex-wrap: wrap; /*줄개행*/
+    /*보더 전체를 주고, 좌우를 삭제*/
+    border: 10px solid #ededed; 
+    border-left: 0;
+    border-right: 0;
 }
 
 .sub-menus a {
@@ -104,5 +110,22 @@ header nav a {
     text-align: center;
     height: 50px;
     line-height: 50px;
+    font-weight: 500;
+    font-size: 1.077rem;
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed;
 }
+
+/* 맨 위줄에 있는 경계선 0 */
+.sub-menus a:nth-of-type(1),
+.sub-menus a:nth-of-type(2),
+.sub-menus a:nth-of-type(3) { 
+    border-top: 0;
+}
+
+/* 왼쪽에 있는 경계선 0 */
+.sub-menus a:nth-of-type(3n+1) {
+    border-left: 0;
+}
+
 /* 서브 메뉴 영역 E */
