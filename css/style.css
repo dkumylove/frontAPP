@@ -195,6 +195,14 @@ header nav a {
 .products .product-price .price {
     font-weight: 800; /*두껍게*/
     font-size: 1.2rem; /*18px*/
+    letter-spacing: -1px; /*자간 -1*/
 }
+
+.products .product-name {
+    color: #3e3d3c;
+    font-size: 1.154rem;
+    word-break: break-all; /*영문이다 숫자를 한 글자만 연속으로 사용하면 줄개행 안됨. word-break: break-all; 추가해서 줄개행시킴*/
+}
+
 
 /* 상품 목록 영역 E */
