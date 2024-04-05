@@ -237,5 +237,6 @@ header nav a {
 .bottom-banner {
     width: 100%;
     display: block;
-    margin: 10px 0 20px;
+    margin: 10px 0 20px;  /*상하여백*/
 }
+
