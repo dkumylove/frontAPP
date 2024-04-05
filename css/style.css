@@ -44,6 +44,14 @@ img {
     font-family: "Montserrat", sans-serif;
 }
 
+h3 {
+    font-size: 1.538rem;  /*대략 20px*/
+    color: #212121;
+    text-align: center;
+    line-height: 1;
+    padding: 20px;
+}
+
 /* 공통 스타일 E */
 
 /* 헤더 영역 S */
@@ -90,7 +98,7 @@ header nav a {
 .main-banner img {
     width: 100%;
     display: block; /* 하단쪽 여백 x */
-    /*img -> 하단쪽 외부엽백생김, img는 inline이기 때문*/
+    /*img -> 하단쪽 외부여백생김, img는 inline이기 때문*/
 }
 
 /* 메인 배너 영역 E */
@@ -111,7 +119,7 @@ header nav a {
     height: 50px;
     line-height: 50px;
     font-weight: 500;
-    font-size: 1.077rem;
+    font-size: 1.077rem;  /*대략 14px*/
     border-top: 1px solid #ededed;
     border-left: 1px solid #ededed;
 }
@@ -147,7 +155,7 @@ header nav a {
 }
 
 .sub-banner img {
-    width: 100%;
+    width: 100%; /* 없으면 크기자 설정되지 얺음, 크기가 달라짐. */
     display: block;
 }
 /* 서브 배너 영역 E */
