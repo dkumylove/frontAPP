@@ -183,6 +183,10 @@ header nav a {
     border-radius: 10px; /*이미지 모서리 둥글게*/
 }
 
+.products .product-image {
+    margin-bottom: 10px;
+    display: block;
+}
 
 
 /* 상품 목록 영역 E */
