@@ -30,3 +30,31 @@ a {
 img {
     border: 0;
 }
+
+/* 헤더 영역 S */
+header .site-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0 15px;
+}
+
+header .logo img {
+    height: 34px;
+}
+
+header .site-top i {
+    font-size: 2.1rem;
+}
+
+header .site-top .left a {
+    margin-right: 10px;
+}
+
+header .site-top .right a {
+    margin-left: 10px;
+}
+
+/* 헤더 영역 E */
