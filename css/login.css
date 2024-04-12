@@ -75,3 +75,16 @@ nav .back {
     cursor: pointer;
 }
 /* 헤더 영역 E */
+
+/* 본문 영역 S */
+main {
+    background: #ededed;
+}
+
+main .box {
+    padding: 30px 15px 40px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-bottom: 1px solid #dfe1e5;
+}
+/* 본문 영역 E */
