@@ -41,6 +41,26 @@
         <main>
             <section class="box login-box">
                 <h2>회원 로그인</h2>
+                <form id="frmLogin" name="frmLogin" autocomplete="off">
+                    <input type="text" name="userId" placeholder="아이디" class="input-text">
+                    <input type="password" name="userPw" placeholder="비밀번호" class="input-text">
+
+                    <div class="chk-grp">
+                        <input type="checkbox" name="auto-login" value="y" id="auto-login">
+                        <label for="auto-login">로그인 유지</label>
+
+                        <input type="checkbox" name="save-id" value="y" id="save-id">
+                        <label for="save-id">아이디 저장</label>
+                    </div>
+
+                    <button type="submit">로그인</button>
+
+                    <div class="links">
+                        <a href="#" class="first">회원가입</a>
+                        <a href="#">아이디찾기</a>
+                        <a href="#">비밀번호찾기</a>
+                    </div>
+                </form>
             </section>
             <section class="box sns-login-box">
                 <h2>SNS간편 로그인</h2>
