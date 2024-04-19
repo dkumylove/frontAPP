@@ -378,7 +378,7 @@ footer .links a:not(.last)::after { /*not(.last) 마지막꺼만 뺴고*/
 }
 
 .bottom-quick-links img {
-    display: block;
+    display: block;/*줄개행을위해*/
     width: 50px;
     margin-top: 10px;
 }

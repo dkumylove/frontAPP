@@ -270,3 +270,17 @@ main .sns-login-box button.kakao-login {
     background-size: contain;
 }
 /* 하단 고정 메뉴 E */
+
+/* 하단 퀵 링크 S */
+.bottom-quick-links {
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+}
+
+.bottom-quick-links img {
+    display: block;
+    width: 50px;
+    margin-top: 10px;
+}
+/* 하단 퀵 링크 E */
