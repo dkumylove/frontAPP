@@ -121,4 +121,29 @@ main .box button[type='submit'] {
     cursor: pointer;
     margin-bottom: 15px;
 }
+
+main input[type='checkbox'] {
+    display: none;  /*checkbox 보이지 않게 함*/
+}
+
+main input[type='checkbox'] + label { /*형제요소에 스타일 적용*/
+    display: inline-block;
+    height: 23px;
+    padding-left: 30px;
+    background:url("../images/chk.png") no-repeat left center;
+    background-size: 23px;
+    color: #212121;
+    margin-right: 15px;
+    font-size: 0.923rem;/*12px*/
+    line-height: 23px;
+}
+
+main input[type='checkbox']:checked + label { /*checked  체크되었을때의 스타일*/
+    background:url("../images/chk_on.png") no-repeat left center;
+    background-size: 23px;
+}
+
+main .box .chk-grp { 
+    margin: 15px 0 25px;
+}
 /* 본문 영역 E */
