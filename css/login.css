@@ -107,4 +107,18 @@ main .box input[type='text'], main .box input[type='password'] {
 main .box .input-text + .input-text { /*첫번쨰만 제외하고 스타일 추가 요소의 인접요소에 스타일 적용*/
     margin-top: 10px;
 }
+
+main .box button[type='submit'] {
+    width: 100%;
+    display: block;
+    background: #8769f0;
+    border-radius:3px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 1.154rem;/*15px*/
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
 /* 본문 영역 E */
