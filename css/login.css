@@ -168,4 +168,21 @@ main .box .links a:not(.first)::before { /*첫번쨰 요소 제외하고 적용*
     left: 0;
     top: 4px;
 }
+
+main .box .guide {
+    color: #8b8b8b;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+main .order-search-box h2 {
+    margin-bottom: 8px;
+}
+
+main .order-search-box button.search-btn {/*우선순위를 높이기 위해 button.search-btn 클래스명을 추가해서 적용*/
+    border:1px solid #8769f0;
+    color: #8769f0;
+    background: #fff;
+    margin-top: 15px;
+}
 /* 본문 영역 E */
