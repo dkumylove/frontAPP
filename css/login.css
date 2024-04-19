@@ -146,4 +146,26 @@ main input[type='checkbox']:checked + label { /*checked  체크되었을때의 �
 main .box .chk-grp { 
     margin: 15px 0 25px;
 }
+
+main .box .links {
+    text-align: center;
+}
+
+main .box .links a {
+    font-size: 0.923rem;/*12px*/
+    color: #212121;
+    padding: 0 15px;
+    position: relative;
+}
+
+main .box .links a:not(.first)::before { /*첫번쨰 요소 제외하고 적용*/
+    content: '';
+    display: block;
+    width: 1px;
+    height: 11px;
+    background: #212121;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
 /* 본문 영역 E */
