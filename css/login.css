@@ -185,4 +185,30 @@ main .order-search-box button.search-btn {/*우선순위를 높이기 위해 but
     background: #fff;
     margin-top: 15px;
 }
+
+main .sns-login-box .btns {
+    display: flex;
+}
+
+main .sns-login-box button:first-of-type { /*첫번쨰 요소만 여백을 띄워줌*/
+    margin-right: 10px;
+}
+
+main .sns-login-box button {
+    width: 0;
+    flex-grow: 1;
+    height: 45px;
+    border: 0;
+}
+
+/*반응형앱에서 버튼이미지 양옆에생기는 여백에 배경 넣기 */
+main .sns-login-box button.naver-login { /*색상 hex 코드 검색해서 알 수 있음 #1EC800*/
+    background: #1EC800 url("../images/naver_login.png") no-repeat center center;
+    background-size: contain;
+}
+
+main .sns-login-box button.kakao-login {
+    background:#FEE500 url("../images/kakao_login.png") no-repeat center center;
+    background-size: contain;
+}
 /* 본문 영역 E */
